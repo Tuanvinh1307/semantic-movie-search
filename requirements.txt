@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+requests
+python-dotenv
+sentence-transformers
+torch
+qdrant-client
+fastembed
+groq
+rank_bm25
+scikit-learn
+tqdm

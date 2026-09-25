@@ -1,0 +1,29 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Data / model caches
+pipeline/data/*.csv
+pipeline/data/*.npy
+pipeline/models/
+index/*.bin
+index/*.pkl
+index/*.sqlite
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

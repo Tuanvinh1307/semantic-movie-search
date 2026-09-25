@@ -1,0 +1,201 @@
+query_id,query_type,query,expected_movie_id,expected_title,pred_top1_movie_id,pred_top1_title,route,latency_sec,hit@1,hit@3,hit@5,hit@10,rr
+1,plot_memory,"I remember a movie where along with her husband and three children, marthe lives in an eden of her own creation, nearly isolated",61222,Home,61222,Home,HARD,3.5028,1,1,1,1,1.0
+2,cast_director,find a drama movie directed by Ursula Meier with Isabelle Huppert and Adélaïde Leroux,61222,Home,61222,Home,HARD,1.659,1,1,1,1,1.0
+3,keyword_theme,movie about highway and sunscreen in a drama setting,61222,Home,61222,Home,HARD,1.6536,1,1,1,1,1.0
+4,year_constraint,"drama film released around 2008 with plot like along with her husband and three children, marthe lives in an eden of her own creation, nearly isolated",61222,Home,61222,Home,HARD,1.6188,1,1,1,1,1.0
+5,plot_memory,"I remember a movie where an unprecedented series of violent tornadoes is sweeping across oklahoma. tornado chasers, headed by dr. jo harding, attempt",664,Twister,664,Twister,HARD,1.8272,1,1,1,1,1.0
+6,cast_director,find a action movie directed by Jan de Bont with Helen Hunt and Bill Paxton,664,Twister,664,Twister,HARD,1.5942,1,1,1,1,1.0
+7,keyword_theme,movie about husband wife relationship and climate in a action setting,664,Twister,664,Twister,HARD,1.5692,1,1,1,1,1.0
+8,year_constraint,"action film released around 1996 with plot like an unprecedented series of violent tornadoes is sweeping across oklahoma. tornado chasers, headed by dr. jo harding, attempt",664,Twister,664,Twister,HARD,1.5378,1,1,1,1,1.0
+9,plot_memory,I remember a movie where cuba is not a country for young gays. teen rent boy reinier falls in love with a mate,201277,The Last Match,201277,The Last Match,HARD,1.6034,1,1,1,1,1.0
+10,cast_director,find a drama movie directed by Antonio Hens with Milton García and Reinier Díaz,201277,The Last Match,201277,The Last Match,HARD,1.6162,1,1,1,1,1.0
+11,keyword_theme,movie about hustler and male prostitution in a drama setting,201277,The Last Match,518496,Sauvage,HARD,1.9722,0,1,1,1,0.5
+12,year_constraint,drama film released around 2013 with plot like cuba is not a country for young gays. teen rent boy reinier falls in love with a mate,201277,The Last Match,201277,The Last Match,HARD,1.6516,1,1,1,1,1.0
+13,plot_memory,I remember a movie where a domineering but charismatic rancher wages a war of intimidation on his brother's new wife and her teen,600583,The Power of the Dog,600583,The Power of the Dog,HARD,1.6294,1,1,1,1,1.0
+14,cast_director,find a drama movie directed by Jane Campion with Benedict Cumberbatch and Kodi Smit-McPhee,600583,The Power of the Dog,600583,The Power of the Dog,HARD,1.5832,1,1,1,1,1.0
+15,keyword_theme,movie about husband wife relationship and based on novel or book in a drama setting,600583,The Power of the Dog,340613,The Wife,HARD,1.6443,0,0,0,0,0.0
+16,year_constraint,drama film released around 2021 with plot like a domineering but charismatic rancher wages a war of intimidation on his brother's new wife and her teen,600583,The Power of the Dog,7445,Brothers,HARD,7.1948,0,1,1,1,0.5
+17,plot_memory,I remember a movie where seventeen-year-old stella spends most of her time in the hospital as a cystic fibrosis patient. her life is,527641,Five Feet Apart,527641,Five Feet Apart,HARD,1.6055,1,1,1,1,1.0
+18,cast_director,find a romance movie directed by Justin Baldoni with Haley Lu Richardson and Cole Sprouse,527641,Five Feet Apart,527641,Five Feet Apart,HARD,1.6151,1,1,1,1,1.0
+19,keyword_theme,movie about forbidden love and terminal illness in a romance setting,527641,Five Feet Apart,527641,Five Feet Apart,HARD,1.6614,1,1,1,1,1.0
+20,year_constraint,romance film released around 2019 with plot like seventeen-year-old stella spends most of her time in the hospital as a cystic fibrosis patient. her life is,527641,Five Feet Apart,527641,Five Feet Apart,HARD,1.7177,1,1,1,1,1.0
+21,plot_memory,"I remember a movie where george, host of a television show focusing on literature, receives videos shot on the sly that feature his",445,Caché,445,Caché,HARD,1.529,1,1,1,1,1.0
+22,cast_director,find a mystery movie directed by Michael Haneke with Daniel Auteuil and Juliette Binoche,445,Caché,445,Caché,HARD,1.6504,1,1,1,1,1.0
+23,keyword_theme,movie about dreams and paris in a mystery setting,445,Caché,300,The Science of Sleep,HARD,1.7618,0,0,0,0,0.0
+24,year_constraint,"mystery film released around 2005 with plot like george, host of a television show focusing on literature, receives videos shot on the sly that feature his",445,Caché,445,Caché,HARD,1.8531,1,1,1,1,1.0
+25,plot_memory,"I remember a movie where socially awkward muriel heslop wants nothing more than to get married. unfortunately, due to her oppressive politician father,",236,Muriel's Wedding,236,Muriel's Wedding,HARD,1.8522,1,1,1,1,1.0
+26,cast_director,find a comedy movie directed by P.J. Hogan with Toni Collette and Bill Hunter,236,Muriel's Wedding,236,Muriel's Wedding,HARD,2.1854,1,1,1,1,1.0
+27,keyword_theme,movie about daughter and individual in a comedy setting,236,Muriel's Wedding,32195,My Date with the President's Daughter,HARD,1.6125,0,0,0,0,0.0
+28,year_constraint,"comedy film released around 1994 with plot like socially awkward muriel heslop wants nothing more than to get married. unfortunately, due to her oppressive politician father,",236,Muriel's Wedding,236,Muriel's Wedding,HARD,1.765,1,1,1,1,1.0
+29,plot_memory,"I remember a movie where in a gritty and alternate 1985, the glory days of costumed vigilantes have been brought to a close",13183,Watchmen,13183,Watchmen,HARD,1.6814,1,1,1,1,1.0
+30,cast_director,find a mystery movie directed by Zack Snyder with Malin Åkerman and Patrick Wilson,13183,Watchmen,13183,Watchmen,HARD,1.7789,1,1,1,1,1.0
+31,keyword_theme,movie about usa president and nuclear war in a mystery setting,13183,Watchmen,9386,In the Line of Fire,HARD,1.6946,0,0,0,0,0.0
+32,year_constraint,"mystery film released around 2009 with plot like in a gritty and alternate 1985, the glory days of costumed vigilantes have been brought to a close",13183,Watchmen,13183,Watchmen,HARD,1.8151,1,1,1,1,1.0
+33,plot_memory,"I remember a movie where zephyr, now known as z, rides the seas with only one goal: destroy all pirates and their dreams",176983,One Piece Film: Z,176983,One Piece Film: Z,HARD,1.8622,1,1,1,1,1.0
+34,cast_director,find a animation movie directed by Tatsuya Nagamine with Mayumi Tanaka and Kazuya Nakai,176983,One Piece Film: Z,433157,One Piece: Heart of Gold,HARD,1.582,0,1,1,1,0.5
+35,keyword_theme,movie about mentor and tragic villain in a animation setting,176983,One Piece Film: Z,176983,One Piece Film: Z,HARD,1.8339,1,1,1,1,1.0
+36,year_constraint,"animation film released around 2012 with plot like zephyr, now known as z, rides the seas with only one goal: destroy all pirates and their dreams",176983,One Piece Film: Z,176983,One Piece Film: Z,HARD,1.7222,1,1,1,1,1.0
+37,plot_memory,"I remember a movie where when a massive, unmanned locomotive roars out of control, the threat is more ominous than just a derailment.",44048,Unstoppable,44048,Unstoppable,HARD,4.1999,1,1,1,1,1.0
+38,cast_director,find a action movie directed by Tony Scott with Denzel Washington and Chris Pine,44048,Unstoppable,9509,Man on Fire,HARD,1.561,0,0,0,0,0.0
+39,keyword_theme,movie about pennsylvania and usa in a action setting,44048,Unstoppable,7485,Shooter,HARD,4.0805,0,0,0,0,0.0
+40,year_constraint,"action film released around 2010 with plot like when a massive, unmanned locomotive roars out of control, the threat is more ominous than just a derailment.",44048,Unstoppable,44048,Unstoppable,HARD,1.8868,1,1,1,1,1.0
+41,plot_memory,"I remember a movie where in 1989, prostitute aileen wuornos befriends and enters a relationship with a young woman named selby. determined to",504,Monster,504,Monster,HARD,4.5821,1,1,1,1,1.0
+42,cast_director,find a crime movie directed by Patty Jenkins with Charlize Theron and Christina Ricci,504,Monster,504,Monster,HARD,1.6313,1,1,1,1,1.0
+43,keyword_theme,movie about death penalty and prostitute in a crime setting,504,Monster,504,Monster,HARD,4.0966,1,1,1,1,1.0
+44,year_constraint,"crime film released around 2003 with plot like in 1989, prostitute aileen wuornos befriends and enters a relationship with a young woman named selby. determined to",504,Monster,504,Monster,HARD,4.1099,1,1,1,1,1.0
+45,plot_memory,I remember a movie where a troubled woman living in an isolated community finds herself pulled between the control of her oppressive family,470918,Beast,470918,Beast,HARD,1.7016,1,1,1,1,1.0
+46,cast_director,find a mystery movie directed by Michael Pearce with Jessie Buckley and Johnny Flynn,470918,Beast,470918,Beast,HARD,1.6088,1,1,1,1,1.0
+47,keyword_theme,movie about island and beach in a mystery setting,470918,Beast,470918,Beast,HARD,4.0942,1,1,1,1,1.0
+48,year_constraint,mystery film released around 2018 with plot like a troubled woman living in an isolated community finds herself pulled between the control of her oppressive family,470918,Beast,470918,Beast,HARD,4.1939,1,1,1,1,1.0
+49,plot_memory,I remember a movie where ten-year-old laure isn't like most girls. she prefers football to dolls and sweaters to dresses. when laure and,65229,Tomboy,65229,Tomboy,HARD,1.792,1,1,1,1,1.0
+50,cast_director,find a drama movie directed by Céline Sciamma with Zoé Héran and Malonn Lévana,65229,Tomboy,321507,L'Emprise,HARD,4.299,0,0,0,0,0.0
+51,keyword_theme,movie about sexual identity and coming of age in a drama setting,65229,Tomboy,65229,Tomboy,HARD,1.6633,1,1,1,1,1.0
+52,year_constraint,drama film released around 2011 with plot like ten-year-old laure isn't like most girls. she prefers football to dolls and sweaters to dresses. when laure and,65229,Tomboy,65229,Tomboy,HARD,3.9366,1,1,1,1,1.0
+53,plot_memory,I remember a movie where this movie chronicles the life and times of r. crumb. robert crumb is the cartoonist/artist who drew keep,26564,Crumb,26564,Crumb,EASY,0.4955,1,1,1,1,1.0
+54,cast_director,find a documentary movie directed by Terry Zwigoff with Robert Crumb and Aline Kominsky,26564,Crumb,26564,Crumb,HARD,1.7658,1,1,1,1,1.0
+55,keyword_theme,movie about underground and san francisco in a documentary setting,26564,Crumb,26564,Crumb,HARD,2.4776,1,1,1,1,1.0
+56,year_constraint,documentary film released around 1995 with plot like this movie chronicles the life and times of r. crumb. robert crumb is the cartoonist/artist who drew keep,26564,Crumb,26564,Crumb,HARD,4.0389,1,1,1,1,1.0
+57,plot_memory,I remember a movie where it's 1974. muhammad ali is 32 and thought by many to be past his prime. george foreman is,10548,When We Were Kings,10548,When We Were Kings,HARD,3.8394,1,1,1,1,1.0
+58,cast_director,find a documentary movie directed by Leon Gast with Muhammad Ali and George Foreman,10548,When We Were Kings,10548,When We Were Kings,HARD,3.8518,1,1,1,1,1.0
+59,keyword_theme,movie about africa and boxer in a documentary setting,10548,When We Were Kings,10548,When We Were Kings,HARD,4.0865,1,1,1,1,1.0
+60,year_constraint,documentary film released around 1996 with plot like it's 1974. muhammad ali is 32 and thought by many to be past his prime. george foreman is,10548,When We Were Kings,10548,When We Were Kings,HARD,3.874,1,1,1,1,1.0
+61,plot_memory,I remember a movie where the creators of wallace & gromit bring you an exciting and original story about a group of chickens,7443,Chicken Run,7443,Chicken Run,HARD,1.662,1,1,1,1,1.0
+62,cast_director,find a animation movie directed by Peter Lord with Julia Sawalha and Mel Gibson,7443,Chicken Run,7443,Chicken Run,HARD,3.9668,1,1,1,1,1.0
+63,keyword_theme,movie about farm and northern england in a animation setting,7443,Chicken Run,7443,Chicken Run,HARD,3.933,1,1,1,1,1.0
+64,year_constraint,animation film released around 2000 with plot like the creators of wallace & gromit bring you an exciting and original story about a group of chickens,7443,Chicken Run,7443,Chicken Run,HARD,4.0857,1,1,1,1,1.0
+65,plot_memory,"I remember a movie where inspired by true events, this film takes place in rwanda in the 1990s when more than a million",205,Hotel Rwanda,205,Hotel Rwanda,HARD,3.9882,1,1,1,1,1.0
+66,cast_director,find a drama movie directed by Terry George with Don Cheadle and Sophie Okonedo,205,Hotel Rwanda,205,Hotel Rwanda,HARD,2.0535,1,1,1,1,1.0
+67,keyword_theme,movie about rwanda and refugee in a drama setting,205,Hotel Rwanda,205,Hotel Rwanda,HARD,1.5216,1,1,1,1,1.0
+68,year_constraint,"drama film released around 2004 with plot like inspired by true events, this film takes place in rwanda in the 1990s when more than a million",205,Hotel Rwanda,205,Hotel Rwanda,EASY,0.4762,1,1,1,1,1.0
+69,plot_memory,"I remember a movie where annie's life is a mess. but when she finds out her lifetime best friend is engaged, she simply",55721,Bridesmaids,55721,Bridesmaids,HARD,3.8183,1,1,1,1,1.0
+70,cast_director,find a comedy movie directed by Paul Feig with Kristen Wiig and Maya Rudolph,55721,Bridesmaids,55721,Bridesmaids,HARD,3.948,1,1,1,1,1.0
+71,keyword_theme,movie about jealousy and parent child relationship in a comedy setting,55721,Bridesmaids,36940,The First Beautiful Thing,HARD,1.5919,0,1,1,1,0.5
+72,year_constraint,"comedy film released around 2011 with plot like annie's life is a mess. but when she finds out her lifetime best friend is engaged, she simply",55721,Bridesmaids,55721,Bridesmaids,HARD,3.9684,1,1,1,1,1.0
+73,plot_memory,"I remember a movie where over a month has passed since 10,000 users were trapped inside the ""sword art online"" world. asuna, who",893712,Sword Art Online the Movie – Progressive – Scherzo of Deep Night,893712,Sword Art Online the Movie – Progressive – Scherzo of Deep Night,HARD,4.0137,1,1,1,1,1.0
+74,cast_director,find a animation movie directed by Ayako Kono with Haruka Tomatsu and Yoshitsugu Matsuoka,893712,Sword Art Online the Movie – Progressive – Scherzo of Deep Night,761898,Sword Art Online the Movie - Progressive - Aria of a Starless Night,HARD,4.2797,0,0,0,0,0.0
+75,keyword_theme,movie about monster and virtual reality in a animation setting,893712,Sword Art Online the Movie – Progressive – Scherzo of Deep Night,893712,Sword Art Online the Movie – Progressive – Scherzo of Deep Night,HARD,1.6173,1,1,1,1,1.0
+76,year_constraint,"animation film released around 2022 with plot like over a month has passed since 10,000 users were trapped inside the ""sword art online"" world. asuna, who",893712,Sword Art Online the Movie – Progressive – Scherzo of Deep Night,893712,Sword Art Online the Movie – Progressive – Scherzo of Deep Night,HARD,1.74,1,1,1,1,1.0
+77,plot_memory,"I remember a movie where remy, a rat living in paris, possesses a palate far more refined than that of his fellow comrades.",2062,Ratatouille,2062,Ratatouille,HARD,3.8532,1,1,1,1,1.0
+78,cast_director,find a animation movie directed by Brad Bird with Patton Oswalt and Ian Holm,2062,Ratatouille,2062,Ratatouille,HARD,3.9189,1,1,1,1,1.0
+79,keyword_theme,movie about work and sibling relationship in a animation setting,2062,Ratatouille,2062,Ratatouille,HARD,4.0461,1,1,1,1,1.0
+80,year_constraint,"animation film released around 2007 with plot like remy, a rat living in paris, possesses a palate far more refined than that of his fellow comrades.",2062,Ratatouille,2062,Ratatouille,HARD,3.9864,1,1,1,1,1.0
+81,plot_memory,"I remember a movie where a historical drama set in roman egypt, concerning philosopher hypatia of alexandria and her relationship with her slave",26428,Agora,26428,Agora,HARD,1.6278,1,1,1,1,1.0
+82,cast_director,find a adventure movie directed by Alejandro Amenábar with Rachel Weisz and Max Minghella,26428,Agora,26428,Agora,HARD,3.9933,1,1,1,1,1.0
+83,keyword_theme,movie about egypt and new love in a adventure setting,26428,Agora,26428,Agora,HARD,3.905,1,1,1,1,1.0
+84,year_constraint,"adventure film released around 2009 with plot like a historical drama set in roman egypt, concerning philosopher hypatia of alexandria and her relationship with her slave",26428,Agora,26428,Agora,HARD,4.1398,1,1,1,1,1.0
+85,plot_memory,"I remember a movie where dr. drakken has an evil new plot for world domination, but his ultimate success depends upon finding out",20771,Kim Possible Movie: So the Drama,20771,Kim Possible Movie: So the Drama,HARD,1.7457,1,1,1,1,1.0
+86,cast_director,find a animation movie directed by Steve Loter with Christy Carlson Romano and Will Friedle,20771,Kim Possible Movie: So the Drama,20771,Kim Possible Movie: So the Drama,HARD,3.9977,1,1,1,1,1.0
+87,keyword_theme,movie about high school and martial arts in a animation setting,20771,Kim Possible Movie: So the Drama,20771,Kim Possible Movie: So the Drama,HARD,4.0184,1,1,1,1,1.0
+88,year_constraint,"animation film released around 2005 with plot like dr. drakken has an evil new plot for world domination, but his ultimate success depends upon finding out",20771,Kim Possible Movie: So the Drama,20771,Kim Possible Movie: So the Drama,HARD,4.1065,1,1,1,1,1.0
+89,plot_memory,"I remember a movie where the remarkable story of brazilian racing driver ayrton senna, charting his physical and spiritual achievements on the track",58496,Senna,58496,Senna,HARD,1.6515,1,1,1,1,1.0
+90,cast_director,find a documentary movie directed by Asif Kapadia with Ayrton Senna and Alain Prost,58496,Senna,58496,Senna,HARD,3.9166,1,1,1,1,1.0
+91,keyword_theme,movie about sports car and competition in a documentary setting,58496,Senna,217316,1,HARD,3.8929,0,0,0,0,0.0
+92,year_constraint,"documentary film released around 2010 with plot like the remarkable story of brazilian racing driver ayrton senna, charting his physical and spiritual achievements on the track",58496,Senna,58496,Senna,HARD,3.7742,1,1,1,1,1.0
+93,plot_memory,"I remember a movie where 1938. while the nazi troops march into vienna, the lawyer josef bartok hastily tries to escape to the",748787,The Royal Game,748787,The Royal Game,HARD,3.97,1,1,1,1,1.0
+94,cast_director,find a history movie directed by Philipp Stölzl with Oliver Masucci and Albrecht Schuch,748787,The Royal Game,748787,The Royal Game,HARD,3.8524,1,1,1,1,1.0
+95,keyword_theme,movie about chess and world war ii in a history setting,748787,The Royal Game,748787,The Royal Game,HARD,3.9359,1,1,1,1,1.0
+96,year_constraint,"history film released around 2021 with plot like 1938. while the nazi troops march into vienna, the lawyer josef bartok hastily tries to escape to the",748787,The Royal Game,748787,The Royal Game,HARD,3.9444,1,1,1,1,1.0
+97,plot_memory,"I remember a movie where in the remote and undeveloped eastern black sea region, a six-year-old boy (yusuf) wanders through the woods searching",44160,Honey,44160,Honey,HARD,3.8737,1,1,1,1,1.0
+98,cast_director,find a drama movie directed by Semih Kaplanoğlu with Bora Altaş and Erdal Beşikçioğlu,44160,Honey,44160,Honey,HARD,4.1918,1,1,1,1,1.0
+99,keyword_theme,movie about drama and drama in a drama setting,44160,Honey,270756,Return to Zero,HARD,1.5693,0,0,0,0,0.0
+100,year_constraint,"drama film released around 2010 with plot like in the remote and undeveloped eastern black sea region, a six-year-old boy (yusuf) wanders through the woods searching",44160,Honey,44160,Honey,HARD,3.9251,1,1,1,1,1.0
+101,plot_memory,I remember a movie where navy seal lieutenant a.k. waters and his elite squadron of tactical specialists are forced to choose between their,9567,Tears of the Sun,9567,Tears of the Sun,HARD,3.7723,1,1,1,1,1.0
+102,cast_director,find a war movie directed by Antoine Fuqua with Bruce Willis and Monica Bellucci,9567,Tears of the Sun,9567,Tears of the Sun,HARD,3.9156,1,1,1,1,1.0
+103,keyword_theme,movie about civil war and war crimes in a war setting,9567,Tears of the Sun,929590,Civil War,HARD,3.9496,0,0,0,0,0.0
+104,year_constraint,war film released around 2003 with plot like navy seal lieutenant a.k. waters and his elite squadron of tactical specialists are forced to choose between their,9567,Tears of the Sun,1241436,Warfare,HARD,4.1351,0,0,0,0,0.0
+105,plot_memory,I remember a movie where in the heat of the summer lays a lonesome house in the countryside where nine year old twin,284303,Goodnight Mommy,284303,Goodnight Mommy,HARD,1.5778,1,1,1,1,1.0
+106,cast_director,find a horror movie directed by Severin Fiala with Elias Schwarz and Lukas Schwarz,284303,Goodnight Mommy,284303,Goodnight Mommy,HARD,4.4255,1,1,1,1,1.0
+107,keyword_theme,movie about mask and fire in a horror setting,284303,Goodnight Mommy,643065,The Fall,HARD,1.52,0,1,1,1,0.5
+108,year_constraint,horror film released around 2015 with plot like in the heat of the summer lays a lonesome house in the countryside where nine year old twin,284303,Goodnight Mommy,284303,Goodnight Mommy,HARD,3.9387,1,1,1,1,1.0
+109,plot_memory,"I remember a movie where in los angeles, a wealthy man, known as mr. fuller, discovers a shocking secret about the world he",1090,The Thirteenth Floor,1090,The Thirteenth Floor,HARD,3.9914,1,1,1,1,1.0
+110,cast_director,find a thriller movie directed by Josef Rusnak with Craig Bierko and Armin Mueller-Stahl,1090,The Thirteenth Floor,1090,The Thirteenth Floor,HARD,3.8805,1,1,1,1,1.0
+111,keyword_theme,movie about artificial intelligence (a.i.) and based on novel or book in a thriller setting,1090,The Thirteenth Floor,1090,The Thirteenth Floor,HARD,3.9006,1,1,1,1,1.0
+112,year_constraint,"thriller film released around 1999 with plot like in los angeles, a wealthy man, known as mr. fuller, discovers a shocking secret about the world he",1090,The Thirteenth Floor,1090,The Thirteenth Floor,HARD,3.9929,1,1,1,1,1.0
+113,plot_memory,"I remember a movie where on the brink of losing her childhood home, maddie discovers an intriguing job listing: wealthy helicopter parents looking",884605,No Hard Feelings,884605,No Hard Feelings,HARD,4.0268,1,1,1,1,1.0
+114,cast_director,find a comedy movie directed by Gene Stupnitsky with Jennifer Lawrence and Andrew Barth Feldman,884605,No Hard Feelings,884605,No Hard Feelings,HARD,4.3145,1,1,1,1,1.0
+115,keyword_theme,movie about friendship and older woman seduces younger guy in a comedy setting,884605,No Hard Feelings,884605,No Hard Feelings,HARD,1.574,1,1,1,1,1.0
+116,year_constraint,"comedy film released around 2023 with plot like on the brink of losing her childhood home, maddie discovers an intriguing job listing: wealthy helicopter parents looking",884605,No Hard Feelings,884605,No Hard Feelings,HARD,1.7009,1,1,1,1,1.0
+117,plot_memory,"I remember a movie where mia hall, a talented young cellist, thought the most difficult decision she would ever have to make would",249164,If I Stay,249164,If I Stay,EASY,0.474,1,1,1,1,1.0
+118,cast_director,find a drama movie directed by R. J. Cutler with Chloë Grace Moretz and Jamie Blackley,249164,If I Stay,249164,If I Stay,HARD,3.7721,1,1,1,1,1.0
+119,keyword_theme,movie about coma and based on novel or book in a drama setting,249164,If I Stay,514439,Breakthrough,HARD,1.5381,0,0,1,1,0.25
+120,year_constraint,"drama film released around 2014 with plot like mia hall, a talented young cellist, thought the most difficult decision she would ever have to make would",249164,If I Stay,249164,If I Stay,HARD,4.0881,1,1,1,1,1.0
+121,plot_memory,"I remember a movie where with the aid of his girlfriend, phyllis potter, and best friend, loomis, grimm enters a manhattan bank dressed",10729,Quick Change,10729,Quick Change,HARD,3.966,1,1,1,1,1.0
+122,cast_director,find a comedy movie directed by Howard Franklin with Bill Murray and Geena Davis,10729,Quick Change,10729,Quick Change,HARD,1.7588,1,1,1,1,1.0
+123,keyword_theme,movie about new york city and heist in a comedy setting,10729,Quick Change,10729,Quick Change,HARD,3.8286,1,1,1,1,1.0
+124,year_constraint,"comedy film released around 1990 with plot like with the aid of his girlfriend, phyllis potter, and best friend, loomis, grimm enters a manhattan bank dressed",10729,Quick Change,10729,Quick Change,HARD,3.9431,1,1,1,1,1.0
+125,plot_memory,"I remember a movie where for twenty years, bruno and malik have lived in a different world—the world of autistic children and teens.",579245,The Specials,579245,The Specials,HARD,3.9867,1,1,1,1,1.0
+126,cast_director,find a comedy movie directed by Éric Toledano with Vincent Cassel and Reda Kateb,579245,The Specials,579245,The Specials,HARD,3.9284,1,1,1,1,1.0
+127,keyword_theme,movie about social worker and autism in a comedy setting,579245,The Specials,579245,The Specials,HARD,3.9422,1,1,1,1,1.0
+128,year_constraint,"comedy film released around 2019 with plot like for twenty years, bruno and malik have lived in a different world—the world of autistic children and teens.",579245,The Specials,579245,The Specials,HARD,3.9544,1,1,1,1,1.0
+129,plot_memory,"I remember a movie where having suffered a tragedy, ben becomes a caregiver to earn money. his first client, trevor, is a hilarious",318121,The Fundamentals of Caring,318121,The Fundamentals of Caring,HARD,4.0101,1,1,1,1,1.0
+130,cast_director,find a comedy movie directed by Rob Burnett with Paul Rudd and Craig Roberts,318121,The Fundamentals of Caring,318121,The Fundamentals of Caring,EASY,0.48,1,1,1,1,1.0
+131,keyword_theme,movie about wheelchair and affectation in a comedy setting,318121,The Fundamentals of Caring,318121,The Fundamentals of Caring,HARD,1.2041,1,1,1,1,1.0
+132,year_constraint,"comedy film released around 2016 with plot like having suffered a tragedy, ben becomes a caregiver to earn money. his first client, trevor, is a hilarious",318121,The Fundamentals of Caring,318121,The Fundamentals of Caring,HARD,3.7754,1,1,1,1,1.0
+133,plot_memory,"I remember a movie where as storm season intensifies, the paths of former storm chaser kate carter and reckless social-media superstar tyler owens",718821,Twisters,718821,Twisters,HARD,3.9798,1,1,1,1,1.0
+134,cast_director,find a action movie directed by Lee Isaac Chung with Daisy Edgar-Jones and Glen Powell,718821,Twisters,718821,Twisters,HARD,4.1881,1,1,1,1,1.0
+135,keyword_theme,movie about dying and death and rodeo in a action setting,718821,Twisters,718821,Twisters,HARD,1.5798,1,1,1,1,1.0
+136,year_constraint,"action film released around 2024 with plot like as storm season intensifies, the paths of former storm chaser kate carter and reckless social-media superstar tyler owens",718821,Twisters,718821,Twisters,HARD,4.1228,1,1,1,1,1.0
+137,plot_memory,"I remember a movie where the school year is finally ending, and t.j. detweiler is looking forward to summer. but boredom quickly sets",19405,Recess: School's Out,19405,Recess: School's Out,HARD,4.0745,1,1,1,1,1.0
+138,cast_director,find a family movie directed by Chuck Sheetz with Andrew Lawrence and Rickey D'Shon Collins,19405,Recess: School's Out,19405,Recess: School's Out,HARD,1.6945,1,1,1,1,1.0
+139,keyword_theme,movie about holiday and elementary school in a family setting,19405,Recess: School's Out,19405,Recess: School's Out,HARD,3.8486,1,1,1,1,1.0
+140,year_constraint,"family film released around 2001 with plot like the school year is finally ending, and t.j. detweiler is looking forward to summer. but boredom quickly sets",19405,Recess: School's Out,19405,Recess: School's Out,HARD,4.0822,1,1,1,1,1.0
+141,plot_memory,I remember a movie where oleg is a young gifted paramedic. his wife katya works as a nurse at the hospital emergency department.,457842,Arrhythmia,457842,Arrhythmia,HARD,4.1387,1,1,1,1,1.0
+142,cast_director,find a drama movie directed by Boris Khlebnikov with Aleksandr Yatsenko and Irina Gorbacheva,457842,Arrhythmia,457842,Arrhythmia,HARD,1.5994,1,1,1,1,1.0
+143,keyword_theme,movie about nurse and alcohol in a drama setting,457842,Arrhythmia,457842,Arrhythmia,HARD,1.6283,1,1,1,1,1.0
+144,year_constraint,drama film released around 2017 with plot like oleg is a young gifted paramedic. his wife katya works as a nurse at the hospital emergency department.,457842,Arrhythmia,457842,Arrhythmia,HARD,3.919,1,1,1,1,1.0
+145,plot_memory,"I remember a movie where bryan mills, a former government operative, is trying to reconnect with his teenage daughter kim. after reluctantly agreeing",8681,Taken,8681,Taken,HARD,4.0249,1,1,1,1,1.0
+146,cast_director,find a action movie directed by Pierre Morel with Liam Neeson and Maggie Grace,8681,Taken,8681,Taken,HARD,4.048,1,1,1,1,1.0
+147,keyword_theme,movie about rescue and paris in a action setting,8681,Taken,8681,Taken,HARD,1.6316,1,1,1,1,1.0
+148,year_constraint,"action film released around 2008 with plot like bryan mills, a former government operative, is trying to reconnect with his teenage daughter kim. after reluctantly agreeing",8681,Taken,8681,Taken,HARD,3.9128,1,1,1,1,1.0
+149,plot_memory,I remember a movie where young princess anna of arendelle dreams about finding true love at her sister elsa’s coronation. fate takes her,109445,Frozen,109445,Frozen,HARD,4.1453,1,1,1,1,1.0
+150,cast_director,find a animation movie directed by Chris Buck with Idina Menzel and Kristen Bell,109445,Frozen,109445,Frozen,HARD,1.5817,1,1,1,1,1.0
+151,keyword_theme,movie about princess and magic in a animation setting,109445,Frozen,463116,The Stolen Princess,HARD,4.0694,0,0,0,0,0.0
+152,year_constraint,animation film released around 2013 with plot like young princess anna of arendelle dreams about finding true love at her sister elsa’s coronation. fate takes her,109445,Frozen,109445,Frozen,HARD,3.9404,1,1,1,1,1.0
+153,plot_memory,"I remember a movie where april 1988, ouvéa island, new caledonia. 30 gendarmes are taken hostage by a group of kanak freedom fighters.",76609,Rebellion,76609,Rebellion,HARD,1.6529,1,1,1,1,1.0
+154,cast_director,find a drama movie directed by Mathieu Kassovitz with Mathieu Kassovitz and Iabe Lapacas,76609,Rebellion,76609,Rebellion,HARD,4.0603,1,1,1,1,1.0
+155,keyword_theme,movie about drama and drama in a drama setting,76609,Rebellion,270756,Return to Zero,HARD,0.9638,0,0,0,0,0.0
+156,year_constraint,"drama film released around 2011 with plot like april 1988, ouvéa island, new caledonia. 30 gendarmes are taken hostage by a group of kanak freedom fighters.",76609,Rebellion,76609,Rebellion,HARD,1.6085,1,1,1,1,1.0
+157,plot_memory,"I remember a movie where every year, thousands of antarctica's emperor penguins make an astonishing journey to breed their young. they walk, marching",1667,March of the Penguins,1667,March of the Penguins,HARD,3.9576,1,1,1,1,1.0
+158,cast_director,find a documentary movie directed by Luc Jacquet with Charles Berling and Romane Bohringer,1667,March of the Penguins,1667,March of the Penguins,HARD,3.9469,1,1,1,1,1.0
+159,keyword_theme,movie about cold and parent child relationship in a documentary setting,1667,March of the Penguins,1667,March of the Penguins,HARD,4.0315,1,1,1,1,1.0
+160,year_constraint,"documentary film released around 2005 with plot like every year, thousands of antarctica's emperor penguins make an astonishing journey to breed their young. they walk, marching",1667,March of the Penguins,1667,March of the Penguins,HARD,3.9914,1,1,1,1,1.0
+161,plot_memory,"I remember a movie where italian immigrant francesca cabrini arrives in 1889 new york city and is greeted by disease, crime, and impoverished",975056,Cabrini,975056,Cabrini,HARD,1.6465,1,1,1,1,1.0
+162,cast_director,find a history movie directed by Alejandro Monteverde with Cristiana Dell'Anna and David Morse,975056,Cabrini,975056,Cabrini,HARD,3.936,1,1,1,1,1.0
+163,keyword_theme,movie about new york city and immigrant in a history setting,975056,Cabrini,241239,A Most Violent Year,HARD,4.0083,0,1,1,1,0.5
+164,year_constraint,"history film released around 2024 with plot like italian immigrant francesca cabrini arrives in 1889 new york city and is greeted by disease, crime, and impoverished",975056,Cabrini,975056,Cabrini,HARD,4.1244,1,1,1,1,1.0
+165,plot_memory,"I remember a movie where relaxing on a cozy beach, the straw hat pirates are taking a rest from their quest. right until",23446,One Piece: Clockwork Island Adventure,23446,One Piece: Clockwork Island Adventure,HARD,3.958,1,1,1,1,1.0
+166,cast_director,find a action movie directed by Junji Shimizu with Mayumi Tanaka and Kazuya Nakai,23446,One Piece: Clockwork Island Adventure,19576,One Piece: The Movie,HARD,1.6438,0,1,1,1,0.5
+167,keyword_theme,movie about pirate and shounen in a action setting,23446,One Piece: Clockwork Island Adventure,19576,One Piece: The Movie,HARD,3.97,0,1,1,1,0.5
+168,year_constraint,"action film released around 2001 with plot like relaxing on a cozy beach, the straw hat pirates are taking a rest from their quest. right until",23446,One Piece: Clockwork Island Adventure,23446,One Piece: Clockwork Island Adventure,HARD,4.0539,1,1,1,1,1.0
+169,plot_memory,"I remember a movie where after going their separate ways, scooby-doo, shaggy, velma, daphne, and fred reunite to investigate the ghost of moonscar",13151,Scooby-Doo on Zombie Island,13151,Scooby-Doo on Zombie Island,HARD,3.8176,1,1,1,1,1.0
+170,cast_director,find a animation movie directed by Jim Stenstrum with Scott Innes and Billy West,13151,Scooby-Doo on Zombie Island,13151,Scooby-Doo on Zombie Island,HARD,1.5505,1,1,1,1,1.0
+171,keyword_theme,movie about new orleans and louisiana in a animation setting,13151,Scooby-Doo on Zombie Island,10198,The Princess and the Frog,HARD,4.0619,0,1,1,1,0.5
+172,year_constraint,"animation film released around 1998 with plot like after going their separate ways, scooby-doo, shaggy, velma, daphne, and fred reunite to investigate the ghost of moonscar",13151,Scooby-Doo on Zombie Island,13151,Scooby-Doo on Zombie Island,HARD,3.9899,1,1,1,1,1.0
+173,plot_memory,"I remember a movie where the kingdom of the people of the earth once ruled over the land, but now all that remains",115223,Pokémon the Movie: Black - Victini and Reshiram,115223,Pokémon the Movie: Black - Victini and Reshiram,HARD,2.0605,1,1,1,1,1.0
+174,cast_director,find a animation movie directed by Kunihiko Yuyama with Rica Matsumoto and Ikue Otani,115223,Pokémon the Movie: Black - Victini and Reshiram,115223,Pokémon the Movie: Black - Victini and Reshiram,HARD,1.6146,1,1,1,1,1.0
+175,keyword_theme,movie about battle and anime in a animation setting,115223,Pokémon the Movie: Black - Victini and Reshiram,115223,Pokémon the Movie: Black - Victini and Reshiram,HARD,3.9966,1,1,1,1,1.0
+176,year_constraint,"animation film released around 2011 with plot like the kingdom of the people of the earth once ruled over the land, but now all that remains",115223,Pokémon the Movie: Black - Victini and Reshiram,115223,Pokémon the Movie: Black - Victini and Reshiram,HARD,4.11,1,1,1,1,1.0
+177,plot_memory,"I remember a movie where hubert, a brash 17-year-old, is confused and torn by a love-hate relationship with his mother that consumes him",26280,I Killed My Mother,26280,I Killed My Mother,HARD,3.9398,1,1,1,1,1.0
+178,cast_director,find a drama movie directed by Xavier Dolan with Xavier Dolan and Anne Dorval,26280,I Killed My Mother,26280,I Killed My Mother,HARD,1.66,1,1,1,1,1.0
+179,keyword_theme,movie about parent child relationship and boarding school in a drama setting,26280,I Killed My Mother,26280,I Killed My Mother,HARD,4.1161,1,1,1,1,1.0
+180,year_constraint,"drama film released around 2009 with plot like hubert, a brash 17-year-old, is confused and torn by a love-hate relationship with his mother that consumes him",26280,I Killed My Mother,26280,I Killed My Mother,HARD,4.0766,1,1,1,1,1.0
+181,plot_memory,"I remember a movie where he is one of the top celebrities in the country: a fast-talking tv host, who can joke his",383682,Planet Single,383682,Planet Single,HARD,1.8191,1,1,1,1,1.0
+182,cast_director,find a comedy movie directed by Mitja Okorn with Maciej Stuhr and Agnieszka Więdłocha,383682,Planet Single,79221,Letters to Santa,HARD,4.3453,0,1,1,1,0.5
+183,keyword_theme,movie about date and teacher in a comedy setting,383682,Planet Single,383682,Planet Single,HARD,2.0958,1,1,1,1,1.0
+184,year_constraint,"comedy film released around 2016 with plot like he is one of the top celebrities in the country: a fast-talking tv host, who can joke his",383682,Planet Single,383682,Planet Single,HARD,1.8155,1,1,1,1,1.0
+185,plot_memory,"I remember a movie where one year since the supernatural nightmare at freddy fazbear's pizza, the stories about what transpired there have been",1228246,Five Nights at Freddy's 2,1228246,Five Nights at Freddy's 2,HARD,4.0654,1,1,1,1,1.0
+186,cast_director,find a horror movie directed by Emma Tammi with Josh Hutcherson and Piper Rubio,1228246,Five Nights at Freddy's 2,507089,Five Nights at Freddy's,HARD,4.1227,0,1,1,1,0.5
+187,keyword_theme,movie about killer robot and pizzeria in a horror setting,1228246,Five Nights at Freddy's 2,1228246,Five Nights at Freddy's 2,HARD,2.079,1,1,1,1,1.0
+188,year_constraint,"horror film released around 2025 with plot like one year since the supernatural nightmare at freddy fazbear's pizza, the stories about what transpired there have been",1228246,Five Nights at Freddy's 2,1228246,Five Nights at Freddy's 2,HARD,1.88,1,1,1,1,1.0
+189,plot_memory,"I remember a movie where this wonderful story happened in the age of valiant knights, beautiful princesses, and battling sorcerers. ruslan, a wandering",463116,The Stolen Princess,463116,The Stolen Princess,HARD,4.0488,1,1,1,1,1.0
+190,cast_director,find a animation movie directed by Oleg Malamuzh with Nadya Dorofeeva and Oleksii Zavgorodnii,463116,The Stolen Princess,463116,The Stolen Princess,HARD,1.8193,1,1,1,1,1.0
+191,keyword_theme,movie about princess and rescue in a animation setting,463116,The Stolen Princess,463116,The Stolen Princess,HARD,4.2011,1,1,1,1,1.0
+192,year_constraint,"animation film released around 2018 with plot like this wonderful story happened in the age of valiant knights, beautiful princesses, and battling sorcerers. ruslan, a wandering",463116,The Stolen Princess,463116,The Stolen Princess,HARD,1.7566,1,1,1,1,1.0
+193,plot_memory,I remember a movie where jesse aarons trained all summer to become the fastest runner in school. so he's very upset when newcomer,1265,Bridge to Terabithia,1265,Bridge to Terabithia,HARD,4.1652,1,1,1,1,1.0
+194,cast_director,find a adventure movie directed by Gábor Csupó with Josh Hutcherson and AnnaSophia Robb,1265,Bridge to Terabithia,1265,Bridge to Terabithia,HARD,1.8874,1,1,1,1,1.0
+195,keyword_theme,movie about friendship and sibling relationship in a adventure setting,1265,Bridge to Terabithia,10009,Brother Bear,HARD,4.0687,0,0,0,0,0.0
+196,year_constraint,adventure film released around 2007 with plot like jesse aarons trained all summer to become the fastest runner in school. so he's very upset when newcomer,1265,Bridge to Terabithia,1265,Bridge to Terabithia,HARD,1.7992,1,1,1,1,1.0
+197,plot_memory,"I remember a movie where the untold story of katherine g. johnson, dorothy vaughan and mary jackson – brilliant african-american women working at",381284,Hidden Figures,381284,Hidden Figures,HARD,4.1582,1,1,1,1,1.0
+198,cast_director,find a drama movie directed by Theodore Melfi with Taraji P. Henson and Octavia Spencer,381284,Hidden Figures,381284,Hidden Figures,HARD,1.8831,1,1,1,1,1.0
+199,keyword_theme,movie about nasa and mathematics in a drama setting,381284,Hidden Figures,381284,Hidden Figures,HARD,4.0733,1,1,1,1,1.0
+200,year_constraint,"drama film released around 2016 with plot like the untold story of katherine g. johnson, dorothy vaughan and mary jackson – brilliant african-american women working at",381284,Hidden Figures,381284,Hidden Figures,HARD,4.1405,1,1,1,1,1.0

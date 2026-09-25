@@ -1,0 +1,45 @@
+====================================================================================================
+EVALUATION SUMMARY: BM25 vs DENSE
+====================================================================================================
+
+Total Queries: 200
+Total Time: 176.29s
+Avg Latency: 0.8815s
+
+OVERALL METRICS
+----------------------------------------------------------------------------------------------------
+hit@1           BM25: 0.7900     Dense: 0.4750    
+hit@3           BM25: 0.8600     Dense: 0.5500    
+hit@5           BM25: 0.8900     Dense: 0.5750    
+hit@10          BM25: 0.9200     Dense: 0.6300    
+mrr             BM25: 0.8346     Dense: 0.5214    
+
+PER-QUERY-TYPE METRICS
+
+CAST_DIRECTOR (50 queries)
+  hit@1           BM25: 0.8400     Dense: 0.1200    
+  hit@3           BM25: 0.9600     Dense: 0.2200    
+  hit@5           BM25: 0.9600     Dense: 0.2600    
+  hit@10          BM25: 0.9800     Dense: 0.3200    
+  mrr             BM25: 0.9033     Dense: 0.1794    
+
+KEYWORD_THEME (50 queries)
+  hit@1           BM25: 0.3200     Dense: 0.0400    
+  hit@3           BM25: 0.4800     Dense: 0.1400    
+  hit@5           BM25: 0.6000     Dense: 0.1800    
+  hit@10          BM25: 0.7000     Dense: 0.3000    
+  mrr             BM25: 0.4352     Dense: 0.1100    
+
+PLOT_MEMORY (50 queries)
+  hit@1           BM25: 1.0000     Dense: 0.8800    
+  hit@3           BM25: 1.0000     Dense: 0.9000    
+  hit@5           BM25: 1.0000     Dense: 0.9200    
+  hit@10          BM25: 1.0000     Dense: 0.9400    
+  mrr             BM25: 1.0000     Dense: 0.8975    
+
+YEAR_CONSTRAINT (50 queries)
+  hit@1           BM25: 1.0000     Dense: 0.8600    
+  hit@3           BM25: 1.0000     Dense: 0.9400    
+  hit@5           BM25: 1.0000     Dense: 0.9400    
+  hit@10          BM25: 1.0000     Dense: 0.9600    
+  mrr             BM25: 1.0000     Dense: 0.8987    
