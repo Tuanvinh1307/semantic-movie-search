@@ -80,7 +80,3 @@ The `evaluation/` folder contains the retrieval benchmark used to validate the s
 `Python` · `Qdrant Cloud` · `Groq (Llama-3.1-8b)` · `Streamlit` · `Sentence-Transformers` · `fastembed (BM25)` · `Cross-Encoder Reranker`
 
 ---
-
-## Contributors
-
-Group 17 — Movie Lookup System project.
